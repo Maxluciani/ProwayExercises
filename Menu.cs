@@ -57,6 +57,15 @@ namespace exercicios {
                     case 15:
                         ExerciseFifteen.Fifteen(null);
                         break;
+                    case 16:
+                        ExerciseSixteen.Sixteen(null);
+                        break;
+                    case 17:
+                        ExerciseSeventeen.Seventeen(null);
+                        break;
+                    case 18:
+                        ExerciseEighteen.Eighteen(null);
+                        break;
                     default:
                         break;
                 }
