@@ -6,7 +6,7 @@ namespace exercicios
     {
         public static void Five(string[] args)
         {
-            Console.WriteLine("Exercício 5");
+            Console.WriteLine("\nExercício 5");
             Console.WriteLine("Criar um algoritmo que peça o nome e a idade de 5 mulheres.");
             Console.WriteLine("Após informar estes dados, o programa deve mostrar apenas % de mulheres que estão com idade entre 18 e 35");
 
@@ -26,7 +26,8 @@ namespace exercicios
             }
             double percentageWomem = 0D;
             percentageWomem = ((Convert.ToDouble(groupWomem) / 5) * 100);
-            Console.WriteLine($"A porcentagem de mulheres maiores de 18 e menores de 35 anos é de: {percentageWomem} %");
+            Console.WriteLine($"A porcentagem de mulheres maiores de 18 e menores de 35 anos é de: {percentageWomem} %\n");
+            Console.ReadLine();
         }
     }
 }

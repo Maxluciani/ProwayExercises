@@ -6,7 +6,7 @@ namespace exercicios
     {
         public static void Four(string[] args)
         {
-            Console.WriteLine("Exercício 4");
+            Console.WriteLine("\nExercício 4");
             Console.WriteLine("Calcular a média de idade de uma turma qualquer. ");
             Console.WriteLine("O algoritmo deve parar quando for digitada a idade igual a zero.");
 
@@ -29,6 +29,7 @@ namespace exercicios
             }
 
             Console.WriteLine("******************* \n Fim do exercício 4");
+            Console.ReadLine();
         }
     }
 }

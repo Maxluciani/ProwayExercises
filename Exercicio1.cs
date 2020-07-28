@@ -4,7 +4,7 @@ namespace exercicios {
     class ExerciseOne {
         public static void One (string[] args)
         {
-            Console.WriteLine("Exercício 1");
+            Console.WriteLine("\nExercício 1");
             Console.WriteLine("1.A Imprimir os números de 1 a 10 de forma crescente\n");
 
             for(int a = 1; a < 11; a++){
@@ -30,6 +30,7 @@ namespace exercicios {
             }
 
             Console.WriteLine("\n******************* \n");
+            Console.ReadLine();
         }
     }
 }

@@ -8,7 +8,7 @@ namespace exercicios {
 
             while(true){
 
-                Console.WriteLine("Este projeto contém 18 Exercícios. \nDigite um número para ver a solução. \nDigite 0 para sair.");
+                Console.WriteLine("\nEste projeto contém 18 Exercícios. \nDigite um número para ver a solução. \nDigite 0 para sair.\n");
                 choice = Convert.ToInt32(Console.ReadLine());
 
                 switch (choice){
@@ -32,6 +32,30 @@ namespace exercicios {
                         break;
                     case 7:
                         ExerciseSeven.Seven(null);
+                        break;
+                    case 8:
+                        ExerciseEight.Eight(null);
+                        break;
+                    case 9:
+                        ExerciseNine.Nine(null);
+                        break;
+                    case 10:
+                        ExerciseTen.Ten(null);
+                        break;
+                    case 11:
+                        ExerciseEleven.Eleven(null);
+                        break;
+                    case 12:
+                        ExerciseTwelve.Twelve(null);
+                        break;
+                    case 13:
+                        ExerciseThirteen.Thirteen(null);
+                        break;
+                    case 14:
+                        ExerciseFourteen.Fourteen(null);
+                        break;
+                    case 15:
+                        ExerciseFifteen.Fifteen(null);
                         break;
                     default:
                         break;

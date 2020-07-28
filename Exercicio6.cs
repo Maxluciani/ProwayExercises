@@ -15,7 +15,7 @@ namespace exercicios
         {
             while (true) {
 
-                Console.WriteLine("Exercício 6");
+                Console.WriteLine("\nExercício 6");
                 Console.WriteLine(String.Join(
                     Environment.NewLine,
                     "Criar um algoritmo que simule uma urna eletrônica. ",
@@ -110,7 +110,7 @@ namespace exercicios
             }
             else Console.WriteLine($"O candidato {candidateB} fez mais votos, totalizando {totalVotesB} votos. \n");
             
-            Console.WriteLine("\n\n Pressione qualquer tecla para voltar ao menu");
+            Console.WriteLine("\nPressione qualquer tecla para voltar ao menu");
             Console.ReadLine();
         }
     }
